@@ -5,7 +5,7 @@ jobs:
       - image: cimg/python:3.5.8
 
     steps:
-    - run: chmod u+x *
+    - run: sleep 3s
     - run: python --version
     - run: ls
     - run: sleep 1s
